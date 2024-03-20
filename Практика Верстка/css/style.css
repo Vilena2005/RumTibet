@@ -1,0 +1,178 @@
+/* nunito-sans-regular - cyrillic */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-sans-v15-cyrillic-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* nunito-sans-600 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/nunito-sans-v15-cyrillic-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* nunito-sans-800 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/nunito-sans-v15-cyrillic-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* nunito-sans-900 - cyrillic */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/nunito-sans-v15-cyrillic-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  @font-face { 
+    font-family: 'NEXTARTBold';
+    src: url("../fonts/NEXTARTBold/NEXTARTBold.eot");
+    src: url("../fonts/NEXTARTBold/NEXTARTBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/NEXTARTBold/NEXTARTBold.woff") format("woff"),
+    url("../fonts/NEXTARTBold/NEXTARTBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+  }
+  @font-face{
+    font-family: 'NEXTARTBold';
+    src: url(/fonts/NEXTARTBold.woff);
+  }
+ 
+h5, p {
+  margin: 0;
+  padding: 0;
+}
+  body{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    color: #18121E; 
+}
+.wrapper {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+
+/*header_styles start*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 39.5px;
+}
+.header_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_item {
+    margin-right: 24px;
+    list-style-type: none;
+}
+.header_logo-link{
+  width: 137px;
+  height: 72px;
+}
+.outline{
+  background-color: #1A3E3E;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 4px;
+}
+.header_item:last-child {
+    margin-right: 0;
+}
+.header_link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FDFDFD;
+  text-decoration: none;
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+  opacity: 0.75;
+}
+/*header styles end*/
+
+
+/*intro styles start*/
+.intro{
+  min-height: 985px;
+  background-image: url(../img/Fon.jpg.jpg);
+  background-repeat: no-repeat;
+  block-size: cover;
+  padding-top: 551px;
+}
+.intro_title{
+  font-family: 'NEXTARTBold';
+  max-width: 1080px;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75%;
+  color: #FDFDFD;
+  margin-bottom: 41px;
+  letter-spacing: 0.02em;
+}
+.intro__title {
+  
+  max-width: 1080px;
+  font-weight: 700px;
+  font-size: 64px;
+  line-height: 75%;
+  color: #FDFDFD;
+  margin-bottom: 41px;
+  letter-spacing: 0.02em;
+}
+/*intro styles end*/
+
+.info {
+  position: absolute;
+  background-color: #1A3E3E;
+  top: 742px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1110px;
+  min-height: 161px;
+  width: 100%;
+  padding: 40px 43px;
+}
+.about {
+
+}
+.info {
+
+}
+.about_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.about_grid-item {
+  background-color: beige;
+  width: 270px;
+}
+
+.program{
+  background-color: #FDFDFD;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 36px;
+  padding-right: 36px;
+  border-radius: 4px;
+}
